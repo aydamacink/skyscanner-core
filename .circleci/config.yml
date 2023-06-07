@@ -15,8 +15,4 @@ jobs:
           monitor-on-build: true
           severity-threshold: critical
           token-variable: SNYK_TOKEN
-workflows:
-  version: 2
-  build_and_test:
-    jobs:
-      - build
+workflows: null
