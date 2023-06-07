@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cimg/node:latest
+      - image: cimg/node:16.0
     steps:
       - checkout
       - run: npm install
