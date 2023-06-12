@@ -17,7 +17,7 @@ jobs:
           paths:
             - ./node_modules
       - snyk/scan:
-          fail-on-issues: false
+          fail-on-issues: true
           monitor-on-build: true
           severity-threshold: critical
           token-variable: SNYK_TOKEN
